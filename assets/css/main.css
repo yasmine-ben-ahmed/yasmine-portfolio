@@ -1277,3 +1277,39 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+/* Center slides content */
+.portfolio-details-slider .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Landscape images (can2, can3) */
+.img-landscape {
+  max-width: 85%;
+  max-height: 420px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Portrait images (can4, can5) */
+.img-portrait {
+  max-width: 55%;
+  max-height: 520px;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .img-landscape {
+    max-width: 100%;
+    max-height: 300px;
+  }
+
+  .img-portrait {
+    max-width: 75%;
+    max-height: 400px;
+  }
+}
