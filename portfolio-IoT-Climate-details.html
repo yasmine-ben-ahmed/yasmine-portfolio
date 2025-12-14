@@ -91,154 +91,136 @@
 
   </header>
 
-  <main class="main">
+<main class="main">
 
-    <!-- Page Title -->
-    <div class="page-title dark-background">
-      <div class="container d-lg-flex justify-content-between align-items-center">
-        <h1 class="mb-2 mb-lg-0">Portfolio Details</h1>
-        <nav class="breadcrumbs">
-          <ol>
-            <li><a href="index.html">Home</a></li>
-            <li class="current">Portfolio Details</li>
-          </ol>
-        </nav>
-      </div>
-    </div><!-- End Page Title -->
-
-    <!-- Portfolio Details Section -->
-    <section id="portfolio-details" class="portfolio-details section">
-
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper init-swiper">
-
-              <script type="application/json" class="swiper-config">
-                {
-                  "loop": true,
-                  "speed": 600,
-                  "autoplay": {
-                    "delay": 5000
-                  },
-                  "slidesPerView": "auto",
-                  "pagination": {
-                    "el": ".swiper-pagination",
-                    "type": "bullets",
-                    "clickable": true
-                  }
-                }
-              </script>
-
-<div class="swiper-wrapper align-items-center">
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/1.png" alt="App Screen 1" style="max-width: 100%; height: 600px; object-fit: contain;">
+<!-- Page Title -->
+<div class="page-title dark-background">
+  <div class="container d-lg-flex justify-content-between align-items-center">
+    <h1>Project Details</h1>
+    <nav class="breadcrumbs">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li class="current">Climate IoT</li>
+      </ol>
+    </nav>
   </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/2.png" alt="App Screen 2" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/3.png" alt="App Screen 3" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/4.png" alt="App Screen 4" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/map.png" alt="Map View" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/5.png" alt="App Screen 5" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/6.png" alt="App Screen 6" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/7.png" alt="App Screen 7" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/8.png" alt="App Screen 8" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/9.png" alt="App Screen 9" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/10.png" alt="App Screen 10" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
-  <div class="swiper-slide">
-    <img src="assets/img/portfolio/notif.png" alt="Notification Screen" style="max-width: 100%; height: 600px; object-fit: contain;">
-  </div>
-
 </div>
 
+<!-- ======= Portfolio Details ======= -->
+<section id="portfolio-details" class="portfolio-details section">
+  <div class="container" data-aos="fade-up">
 
+    <div class="row gy-4">
 
-              <div class="swiper-pagination"></div>
+      <!-- Images -->
+      <div class="col-lg-8">
+        <div class="portfolio-details-slider swiper init-swiper">
+
+          <script type="application/json" class="swiper-config">
+          {
+            "loop": true,
+            "speed": 600,
+            "autoplay": { "delay": 4000 },
+            "slidesPerView": 1,
+            "pagination": {
+              "el": ".swiper-pagination",
+              "clickable": true
+            }
+          }
+          </script>
+
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/dht2.png" class="img-landscape" alt="ESP32 Sensor Board">
             </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/dht1.png" class="img-landscape" alt="DHT11 Sensor Module">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/dht5.png" class="img-landscape" alt="Grafana Dashboard">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/dht6.png" class="img-landscape" alt="InfluxDB Data Visualization">
+            </div>
+
+            <div class="swiper-slide">
+              <img src="assets/img/portfolio/dht111.png" class="img-landscape" alt="IoT System Architecture">
+            </div>
+
           </div>
 
-
-
-
-<div class="col-lg-4">
-  <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-    <h3>Project Information</h3>
-    <ul>
-      <li><strong>Category:</strong> Heatstroke Prediction ML Model & Mobile App Integration</li>
-      <li><strong>Project Duration:</strong> June 15 – August 15, 2025</li>
-    </ul>
-  </div>
-
-  <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
-    <h2>ML Model & Mobile App</h2>
-    <p>
-      <strong>Summer Intern</strong><br>
-      Hope Horizon – Tunisian Startup
-    </p>
-    <p>
-      Developed a heatstroke risk prediction model integrating climate and medical data (SmartCare).<br>
-      Enhanced model accuracy by evaluating ML algorithms including AdaBoost, XGBoost, CatBoost, Random Forest, and CNNs.<br>
-      Deployed the AdaBoost model into a mobile app using FastAPI, Flutter, Git/GitHub, and Docker.
-    </p>
-    <p>
-      <strong>Technologies:</strong> FastAPI, Flutter, Git/GitHub, Docker, AdaBoost, XGBoost, CatBoost, Random Forest, CNN
-    </p>
-  </div>
-</div>
-
-
-
-<div class="swiper-slide">
-  <h3 style="text-align: center; margin-bottom: 10px; font-weight: bold;">
-    Demo: Mobile Short
-  </h3>
-
-
-
-
-
-
-
+          <div class="swiper-pagination"></div>
         </div>
-
       </div>
 
-    </section><!-- /Portfolio Details Section -->
+      <!-- Project Info -->
+      <div class="col-lg-4">
+        <div class="portfolio-info">
+          <h3>Project Information</h3>
+          <ul>
+            <li><strong>Project Name:</strong> Climate IoT</li>
+            <li><strong>Year:</strong> 2025</li>
+            <li><strong>Type:</strong> IoT Monitoring & Visualization Project</li>
 
-  </main>
+            <li><strong>Microcontrollers:</strong> ESP32 Wi-Fi Board</li>
+
+            <li><strong>Sensors:</strong> DHT11 (Temperature & Humidity)</li>
+
+            <li><strong>Connectivity:</strong> Wi-Fi, MQTT (Mosquitto local & HiveMQ cloud)</li>
+
+            <li><strong>Database:</strong> InfluxDB</li>
+
+            <li><strong>Dashboard:</strong> Grafana</li>
+
+            <li><strong>Programming:</strong> Python, C++, Arduino, MQTT integration</li>
+
+            <li><strong>Source Code:</strong><br>
+              <a href="https://github.com/yasmine-ben-ahmed/IoT_Project_ESP32" target="_blank">
+                GitHub Repository
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Description -->
+    <div class="portfolio-description mt-5">
+      <h2>Climate IoT – Temperature & Humidity Monitoring</h2>
+
+      <p>
+        <strong>Climate IoT</strong> is a real-time monitoring system that collects
+        environmental data using an ESP32 microcontroller connected to a DHT11 sensor.
+        The data is sent over <strong>MQTT</strong> to both a local Mosquitto broker and a
+        cloud HiveMQ broker, providing flexible access and remote monitoring.
+      </p>
+
+      <p>
+        All sensor readings are stored in <strong>InfluxDB</strong>, a time-series
+        database optimized for high-frequency IoT data. The data is visualized in
+        <strong>Grafana dashboards</strong>, showing temperature, humidity, and heat index
+        metrics in real time with intuitive charts and alerts.
+      </p>
+
+      <p>
+        The system leverages <strong>Wi-Fi connectivity</strong> for communication
+        between ESP32 and brokers. It is designed to be modular and extensible,
+        supporting multiple nodes and additional sensors in the future. This project
+        demonstrates hands-on experience in IoT data acquisition, real-time visualization,
+        and integration of embedded systems with cloud services.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+</main>
+
 
   <footer id="footer" class="footer position-relative light-background">
 
